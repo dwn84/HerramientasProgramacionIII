@@ -11,3 +11,17 @@ C:\Users\samaniw\source\repos\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.
 C:\Users\samaniw\source\repos\wfAppManejoFormularios\obj\Debug\wfAppManejoFormularios.csproj.GenerateResource.cache
 C:\Users\samaniw\source\repos\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.exe
 C:\Users\samaniw\source\repos\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\bin\Debug\WindowsFormsApp2.exe
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\wfAppManejoFormularios.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.frmCalcularNotaFinal.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.frmIndiceMasaCorporal.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.frmMenu.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.frmConvertir.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.frmSimuladorBancario.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\wfAppManejoFormularios.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.exe
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\wfAppManejoFormularios\obj\Debug\WindowsFormsApp2.frmSolicitarDato.resources
