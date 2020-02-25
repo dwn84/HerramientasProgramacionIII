@@ -76,6 +76,12 @@
     <Compile Include="frmSimuladorBancario.Designer.cs">
       <DependentUpon>frmSimuladorBancario.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSolicitarDato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSolicitarDato.Designer.cs">
+      <DependentUpon>frmSolicitarDato.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCalcularNotaFinal.resx">
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSimuladorBancario.resx">
       <DependentUpon>frmSimuladorBancario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSolicitarDato.resx">
+      <DependentUpon>frmSolicitarDato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

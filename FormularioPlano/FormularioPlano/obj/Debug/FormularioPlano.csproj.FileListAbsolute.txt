@@ -1,0 +1,12 @@
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\bin\Debug\FormularioPlano.exe.config
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\bin\Debug\FormularioPlano.exe
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\bin\Debug\FormularioPlano.pdb
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.Form1.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.exe
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.pdb
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.frmUsuarios.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.frmConfig.resources
+C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\FormularioPlano\FormularioPlano\obj\Debug\FormularioPlano.frmReportes.resources
