@@ -16,5 +16,13 @@ namespace Ejemplo_Capas1
         {
             InitializeComponent();
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            GestorTratamiento gt = new GestorTratamiento();
+            DataTable data = new DataTable();
+            data.Load(gt.BuscarTratamiento(txtCedula.Text));
+            dataGridView1.DataSource = data;
+        }
     }
 }

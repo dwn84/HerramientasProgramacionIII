@@ -10,7 +10,7 @@ namespace Ejemplo_Capas1
     class GestorTratamiento
     {
         private SqlConnection con;
-        public string AsignarTratamiento(Tratamientos tra)
+        public void AsignarTratamiento(Tratamientos tra)
         {
             con = Conexion.GetConexion();
             SqlCommand consulta = new SqlCommand();
@@ -23,22 +23,47 @@ namespace Ejemplo_Capas1
             consulta.Parameters.AddWithValue("@TraFechaFin", tra.TraFechaFin);
             consulta.Parameters.AddWithValue("@TraObservaciones", tra.TraObservaciones);
 
+            string mensaje = "";
+
             try
             {
                 if (consulta.ExecuteNonQuery() == 1)
                 {
-                    return "Funcionó";
+                    mensaje = "Funcionó";
                 }
                 else
-                { 
-                    return "Error en la consulta"; 
+                {
+                    mensaje = "Error en la consulta";
                 }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                return $"Ocurrio un error: {ex.Message}";
+                mensaje = $"Ocurrio un error inesperado: {ex.Message}";
             }
 
+            System.Windows.Forms.MessageBox.Show(mensaje);
+
+        }
+
+        public SqlDataReader BuscarTratamiento(string id) {
+            con = Conexion.GetConexion();
+            SqlCommand consulta = new SqlCommand();
+            consulta.Connection = con;
+            consulta.CommandText = "select * from tblTratamientos where TraIdPaciente = @idp";
+            consulta.Parameters.AddWithValue("@idp", id);
+            return consulta.ExecuteReader();
+        }
+
+        public void ListadoPacientes(System.Windows.Forms.ComboBox listado)
+        {
+            con = Conexion.GetConexion();
+            SqlCommand consulta = new SqlCommand();
+            consulta.Connection = con;
+            consulta.CommandText = "select PacId from tblPacientes";
+            SqlDataReader data=  consulta.ExecuteReader();
+            while (data.Read()) {
+                listado.Items.Add(data["PacId"]);
+            }
         }
 
     }

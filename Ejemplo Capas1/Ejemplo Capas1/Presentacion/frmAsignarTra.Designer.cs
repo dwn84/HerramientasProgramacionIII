@@ -41,7 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtCedPaciente = new System.Windows.Forms.TextBox();
+            this.txtCedPaciente = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -174,10 +174,11 @@
             // 
             // txtCedPaciente
             // 
-            this.txtCedPaciente.Location = new System.Drawing.Point(137, 31);
+            this.txtCedPaciente.FormattingEnabled = true;
+            this.txtCedPaciente.Location = new System.Drawing.Point(163, 28);
             this.txtCedPaciente.Name = "txtCedPaciente";
-            this.txtCedPaciente.Size = new System.Drawing.Size(100, 20);
-            this.txtCedPaciente.TabIndex = 2;
+            this.txtCedPaciente.Size = new System.Drawing.Size(121, 21);
+            this.txtCedPaciente.TabIndex = 3;
             // 
             // frmAsignarTra
             // 
@@ -189,6 +190,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmAsignarTra";
             this.Text = "Asignar tratamiento";
+            this.Load += new System.EventHandler(this.frmAsignarTra_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -200,17 +202,17 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnAsignar;
-        private System.Windows.Forms.TextBox txtObservaciones;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dtpFechaF;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dtpFechaI;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtDetalle;
-        private System.Windows.Forms.DateTimePicker dtpFechaA;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtCedPaciente;
+        public System.Windows.Forms.TextBox txtObservaciones;
+        public System.Windows.Forms.DateTimePicker dtpFechaF;
+        public System.Windows.Forms.DateTimePicker dtpFechaI;
+        public System.Windows.Forms.TextBox txtDetalle;
+        public System.Windows.Forms.DateTimePicker dtpFechaA;
+        public System.Windows.Forms.ComboBox txtCedPaciente;
     }
 }
