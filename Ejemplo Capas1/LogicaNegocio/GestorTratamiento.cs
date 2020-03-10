@@ -61,10 +61,18 @@ namespace Ejemplo_Capas1
             SqlCommand consulta = new SqlCommand();
             consulta.Connection = con;
             consulta.CommandText = "select PacId from tblPacientes";
-            SqlDataReader data=  consulta.ExecuteReader();
-            while (data.Read()) {
-                listado.Items.Add(data["PacId"]);
-            }
+            //SqlDataReader data=  consulta.ExecuteReader();
+            //while (data.Read()) {
+            //    listado.Items.Add(data["PacId"]);
+            //}
+            SqlDataAdapter registros = new SqlDataAdapter("select PacId,PacNombres from tblPacientes", con);
+            DataTable dt = new DataTable();
+            registros.Fill(dt);
+            listado.DataSource = dt;
+            listado.DisplayMember = "PacNombres";
+            listado.ValueMember = "PacId";
+            
+
         }
 
         public void BuscarTratamientoFechas(DateTime ini, DateTime fin, System.Windows.Forms.DataGridView listado)
