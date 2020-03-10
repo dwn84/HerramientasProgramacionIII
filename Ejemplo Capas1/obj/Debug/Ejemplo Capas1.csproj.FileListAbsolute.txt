@@ -1,0 +1,35 @@
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe.config
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.pdb
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Form1.resources
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmAsignarTra.resources
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmListadoTra.resources
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Properties.Resources.resources
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.exe
+C:\Users\Administrador\source\repos\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.pdb
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe.config
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.pdb
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Form1.resources
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmAsignarTra.resources
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmListadoTra.resources
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Properties.Resources.resources
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.exe
+C:\Users\user\Desktop\Ejemplo Capas1\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.pdb
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Form1.resources
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmAsignarTra.resources
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmListadoTra.resources
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmRangoTratamientos.resources
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Properties.Resources.resources
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.exe
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.pdb
+C:\Users\user\Desktop\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe.config
+C:\Users\user\Desktop\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe
+C:\Users\user\Desktop\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.pdb
+C:\Users\user\Desktop\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmPaciente.resources
