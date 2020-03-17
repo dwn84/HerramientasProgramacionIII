@@ -46,3 +46,17 @@ C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\Ejemplo Capas1\obj\De
 C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csproj.GenerateResource.cache
 C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.exe
 C:\Users\user\Documents\GitHub\HerramientasProgramacionIII\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.pdb
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe.config
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.exe
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\bin\Debug\Ejemplo Capas1.pdb
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csprojAssemblyReference.cache
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Form1.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmAsignarTra.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmListadoTra.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmLogin.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmPaciente.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.frmRangoTratamientos.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo_Capas1.Properties.Resources.resources
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.csproj.GenerateResource.cache
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.exe
+C:\Users\samaniw\Desktop\HerramientasProgramacionIII-master\Ejemplo Capas1\obj\Debug\Ejemplo Capas1.pdb

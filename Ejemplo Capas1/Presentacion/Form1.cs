@@ -12,9 +12,17 @@ namespace Ejemplo_Capas1
 {
     public partial class Form1 : Form
     {
+        string RolUsuario;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        public Form1(string rolU)
+        {
+            InitializeComponent();
+            RolUsuario = rolU;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,7 +48,16 @@ namespace Ejemplo_Capas1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            switch(RolUsuario)
+            {
+                case "1":
+                    gestionDeUsuariosToolStripMenuItem.Visible = true;
+                    break;
+                case "2":
+                    asignarToolStripMenuItem.Visible = false;
+                    break;
 
+            }
         }
 
         private void consultarPorFechasToolStripMenuItem_Click(object sender, EventArgs e)

@@ -19,7 +19,7 @@ namespace Ejemplo_Capas1
             consulta.CommandText = "insert into tblTratamientos(TraIdPaciente,TraFechaAsignado,TraDetalles,TraFechaIni,TraFechaFin,TraObservaciones) values(@TraIdPaciente,@TraFechaAsignado,@TraDetalles,@TraFechaIni,@TraFechaFin,@TraObservaciones)";
             consulta.Parameters.AddWithValue("@TraIdPaciente", tra.TraIdPaciente);
             consulta.Parameters.AddWithValue("@TraFechaAsignado", tra.TraFechaAsignado);
-            consulta.Parameters.AddWithValue("@TraDetalles", tra.TraDetalles);
+            consulta.Parameters.AddWithValue("@TraDetalles",  tra.TraDetalles);
             consulta.Parameters.AddWithValue("@TraFechaIni", tra.TraFechaIni);
             consulta.Parameters.AddWithValue("@TraFechaFin", tra.TraFechaFin);
             consulta.Parameters.AddWithValue("@TraObservaciones", tra.TraObservaciones);
@@ -71,7 +71,7 @@ namespace Ejemplo_Capas1
             listado.DataSource = dt;
             listado.DisplayMember = "PacNombres";
             listado.ValueMember = "PacId";
-            
+
 
         }
 
@@ -80,8 +80,8 @@ namespace Ejemplo_Capas1
             con = Conexion.GetConexion();
             SqlCommand consulta = new SqlCommand();
             consulta.Connection = con;
-            consulta.CommandText = "select p.PacNombres, t.TraDetalles from tblPacientes as p "+
-                                                "join tblTratamientos as t on p.PacId = t.TraIdPaciente "+
+            consulta.CommandText = "select p.PacNombres, t.TraDetalles from tblPacientes as p " +
+                                                "join tblTratamientos as t on p.PacId = t.TraIdPaciente " +
                                                 "where t.TraFechaIni between @i and @f";
             consulta.Parameters.AddWithValue("@i", ini);
             consulta.Parameters.AddWithValue("@f", fin);
@@ -92,5 +92,25 @@ namespace Ejemplo_Capas1
 
         }
 
+        public string ValidarUsuario(string usuario, string password) 
+        {
+            con = Conexion.GetConexion();
+            password = Encriptacion.ObtenerMD5(password);
+            SqlCommand consulta = new SqlCommand();
+            consulta.Connection = con;
+            consulta.CommandText = "select ru.RolId from TblUsuarios u " +
+                                   "join TblRolUsuario ru on u.UsuId = ru.UsuId " +
+                                   "where u.UsuNombre=@u and u.UsuPassword=@p";
+            consulta.Parameters.AddWithValue("@u", usuario);
+            consulta.Parameters.AddWithValue("@p", password);
+
+            SqlDataReader resultado = consulta.ExecuteReader();
+            if (resultado.Read()) 
+            {
+                return resultado[0].ToString();
+            }
+
+            return "99";
+        }
     }
 }

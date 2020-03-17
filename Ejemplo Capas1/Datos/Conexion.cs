@@ -16,7 +16,7 @@ namespace Ejemplo_Capas1
         public static SqlConnection GetConexion() 
      
         {
-            con = new SqlConnection("Data Source=DESKTOP-1TI02B3\\SQLEXPRESS; Initial Catalog=GestionTratamientos; Integrated Security=True; MultipleActiveResultSets=True");
+            con = new SqlConnection("Data Source=SYN\\SQLEXPRESS; Initial Catalog=DBTratamientos; Integrated Security=True; MultipleActiveResultSets=True");
             try
             {
                 con.Open();

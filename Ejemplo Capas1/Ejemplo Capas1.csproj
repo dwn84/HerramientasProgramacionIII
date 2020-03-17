@@ -49,6 +49,7 @@
     <Compile Include="Datos\Conexion.cs" />
     <Compile Include="Datos\Pacientes.cs" />
     <Compile Include="Datos\Tratamientos.cs" />
+    <Compile Include="LogicaNegocio\Encriptacion.cs" />
     <Compile Include="LogicaNegocio\GestorTratamiento.cs" />
     <Compile Include="LogicaNegocio\PuenteTratamientos.cs" />
     <Compile Include="Presentacion\Form1.cs">
@@ -68,6 +69,12 @@
     </Compile>
     <Compile Include="Presentacion\frmListadoTra.Designer.cs">
       <DependentUpon>frmListadoTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\frmPaciente.cs">
       <SubType>Form</SubType>
@@ -91,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\frmListadoTra.resx">
       <DependentUpon>frmListadoTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\frmPaciente.resx">
       <DependentUpon>frmPaciente.cs</DependentUpon>
