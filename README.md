@@ -5,7 +5,7 @@ Herramientas de programación III
 
 ## Recursos:
 
-*[HTML](https://lenguajehtml.com/)
-*[CSS](https://lenguajecss.com/)
-*[Javascript](https://lenguajejs.com/)
+* [HTML](https://lenguajehtml.com/)
+* [CSS](https://lenguajecss.com/)
+* [Javascript](https://lenguajejs.com/)
 
