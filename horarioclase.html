@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de clase</title>
+</head>
+<body>
+   <table border="1">
+       <caption style="font-family: 'Lobster', cursive;">Horario de clase</caption>
+       <tr>
+           <th>Hora</th>
+           <th>Lunes</th>
+           <th>Martes</th>
+           <th>Miercoles</th>
+           <th>Jueves</th>
+           <th>Viernes</th>
+       </tr>
+       <tr>
+           <td>8:00</td>
+           <td rowspan="2">Física</td>
+           <td>Matemática</td>
+           <td>Literatura</td>
+           <td rowspan="2">Matemática</td>
+           <td rowspan="2">Español</td>
+       </tr>
+       <tr>
+           <td>10:00</td>
+           <td>Español</td>
+           <td>Artes</td>
+
+       </tr>
+       <tr>
+           <td>12:00</td>
+           <td>Matemática</td>
+           <td>Física</td>
+           <td>FIlosofía</td>
+           <td>Español</td>
+           <td>Literatura</td>
+           </tr>
+       <tr>
+           <td>14:00</td>
+           <td colspan="5">Descanso</td>
+           
+       </tr>
+   </table>
+
+   <h1>Formulario de suscripcion al boletin</h1>
+
+   <form>
+        <label for="">Nit de la empresa</label> <input type="text" name="txtCdigo" required id="" pattern="^[0-9]{5,12}-[0-9]$" title="Codigo de nit incorrecto" placeholder="xxxxxxx-x"><br>
+        <label>Tu nombre: </label><br><input type=text" name="txtNombre" id="txtNombre" required><br>
+        <label>Tu apellido: </label><br><input type="text" name="txtApellido" id="txtApellido" required><br>
+        <label for="">Fecha de nacimiento</label><br>
+        <input type="date" name="dtpFechaN" id="">
+        <label for="">Tu correo electrónico</label><br><input type="email" name="txtCorreo" id="" placeholder="Email..."><br>
+        <label for="">Suscribirse al boletin</label><br>
+        <input type="radio" name="rdbSuscripcion" id="rdbSuscripcionSi" value="1">SI<br>
+        <input type="radio" name="rdbSuscripcion" id="rdbSuscripcionNo" value="0" >No<br>
+        <label for="">Selecciona sus intereses</label><br>
+        <input type="checkbox" name="chbProM" id="">Programación dispositivos móviles <br>
+        <input type="checkbox" name="chB1" id="">asdf <br>
+        <input type="checkbox" name="chB2" id="">qwer <br>
+        <input type="checkbox" name="chB3" id="">zxcv <br>
+        <input type="checkbox" name="chB4" id="">jklñ <br>
+<label for="">Categoria</label>
+        <select name="txtCategoria" id="" required>
+            <option value="1">Tipo consulta</option>
+            <option value="2">Medios</option>
+            <option value="3">Instituciones</option>
+            <option value="4">Estudiantes</option>
+        </select>
+        <br>
+        <label for="">Tu mensaje</label><br><textarea name="txtMensaje" id="txtMensaje" cols="60" rows="5"></textarea><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar campos">
+   </form>
+</body>
+</html>
