@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario de registro</title>
+</head>
+<body>
+ <form>
+	<p><label>Nombre: </label><input type="text" name="nom" value="Esperanza"></p>
+	<p><label>Apellido: </label><input type="text" name="apel"></p>
+	<p><label>Mes de nacimiento: </label><input type="month" name="mesnacimiento"></p>
+	<p><label>Peso: </label><input type="number" name="peso" step="0.1" min="1" max="150" value="1"></p>
+	<p><label>Deporte favorito: </label> <input type="text" name="deporte" placeholder="Fútbol? Tenis? Hockey?"></p>
+	<p><label>Intereses: </label><br>
+		<input type="checkbox" name="cb-html5" checked> HTML<br>
+		<input type="checkbox" name="cb-css3" checked> CSS<br>
+		<input type="checkbox" name="cb-javascript"> PHP
+	</p>
+	<p><label>Edad:</label><input type="text" id="edad" autofocus></p>
+	<p><label>Selecciona un curso:<br></label>
+		<input type="radio" name="curso" value="culinaria"> Culinaria<br>
+		<input type="radio" name="curso" value="jardineria" checked> Jardinería<br>
+		<input type="radio" name="curso" value="pintura"> Pintura
+	</p>
+	<p><label>Texto de sólo lectura: </label><input type="text" name="textodesololectura" value="Hola Mundo!" readonly>
+	<p><label>Texto deshabilitado: </label><input type="text" name="textodeshabilitado" value="Ho!" disabled>
+	<p><label>Dirección de correo electrónico: </label><input type="email" name="email" placeholder="Ej.: usuario@servidor.com">
+	<p><label>Direcciones de correo electrónico: </label><input type="email" name="emails" multiple>
+	<hr>
+	<p><label>Nombre de usuario: </label> <input type="text" name="usuario" placeholder="Usuario para acceder" required></p>
+	<p><label>Contraseña: </label> <input type="password" name="pass" placeholder="Elije una contraseña fuerte"></p>
+	<fieldset>
+		<legend>Matricula: </legend>
+		<label>Numero: </label><input type="text"><br>
+		<label>Materia: </label><input type="text"><br>
+	</fieldset>
+	<p><label>Color favorito: </label></p>
+	<select name="colores[]" size="4" multiple>
+		<option value="1">Rojo</option>
+		<option value="2">Verde</option>
+		<option value="3">Azul</option>
+		<option value="4">Amarillo</option>
+		<option value="5">Blanco</option>
+		<option value="6">Negro</option>
+		<option value="7">Naranja</option>
+		<option value="8">Violeta</option>
+	</select>
+	<p><label for="message">Tu mensaje:</label></p>
+	<textarea name="mensaje" rows="7" cols="30"></textarea>
+	<select name="tipos">
+		<option value="">Tipo de consulta</option>
+		<option value="Medios">Academica</option>
+		<option value="Instituciones">Economica</option>
+		<option value="Estudiantes">Judicial</option>
+	</select>	
+		
+	<p>
+		<input type="submit" value="Enviar datos">
+		<input type="reset" value="Restaurar formulario">
+	</p>
+ 
+</form> 
+</body>
+</html>
+
