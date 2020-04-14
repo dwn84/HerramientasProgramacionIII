@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<style>
+    @media(max-width: 374px) {
+        #col-izq {
+            background: darkcyan;
+        }
+
+        #col-der { 
+            background: pink;
+        }
+
+    }
+
+    @media(min-width: 600px) {
+        #col-izq {
+
+            height: 50%;
+            background: darkcyan;
+            float: left;
+            width: 40%;
+            ;
+        }
+
+        #contenido {
+
+            float: left;
+            width: 60%;
+            height: 25%;
+        }
+
+        #col-der {
+            float: left;
+            width: 60%;
+            height: 25%;
+            background: pink;
+
+        }
+
+    }
+
+    @media(min-width: 812px) {
+        /*configuracion general*/
+        #col-izq {
+
+            height: 50%;
+            background: darkcyan;
+            float: left;
+            width: 20%;
+            ;
+        }
+
+        #contenido {
+
+            float: left;
+            width: 60%;
+            height: 50%;
+        }
+
+        #col-der {
+            float: right;
+            width: 20%;
+            height: 50%;
+            background: pink;
+
+        }
+
+    }
+
+    #contenedor {
+        width: 100%;
+        background: khaki;
+    }
+
+    #cabecera {
+        background: burlywood;
+        height: 30%;
+    }
+
+    #pie {
+        background: cadetblue;
+        clear: both;
+    }
+</style>
+
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+            Logotipo empresarial
+        </div>
+        <div id="col-izq">
+            menu
+        </div>
+        <div id="contenido">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quia. Quibusdam recusandae fugiat cum aperiam
+            quod aliquam qui asperiores amet. Tempore fugit dolorem nobis maiores ducimus voluptatum animi quas.
+            Explicabo.
+        </div>
+
+        <div id="col-der">
+            imagen
+        </div>
+
+        <div id="pie">14/04/2020</div>
+
+
+
+    </div>
+</body>
+
+</html>
