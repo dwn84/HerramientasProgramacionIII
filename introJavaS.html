@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <p onclick="alert('Hello world');" id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            nemo,
+            laborum distinctio repudiandae est voluptatem suscipit a dolor in temporibus eos libero sit, illo itaque
+            soluta
+            amet delectus culpa minima.</p>
+    </div>
+    <p id="demo">
+        <a href="http://www.google.com" id="vinculo">Hello world!!!!!</a>
+    </p>
+
+    <form action="">
+        <input type="text" id="txtNombre"><br>
+        <input type="text" id="txtApellido"><br>
+        <input type="text" id="txtEdad"><br>
+        <input type="button" value="Incrementar" onclick="incrementar();">
+        <input type="button" value="Borrar texto" onclick="borrarElemento();">
+        <input type="button" value="Borrar atributo" onclick="borrarAtributo();">
+        <input type="button" value="Cambiar texto" onclick="cambiarTexto();">
+        <input type="button" value="Cambiar tipo a uno solo" onclick="cambiarTipo();">
+        <input type="button" value="Cambiar tipo a todos" onclick="cambiarTipoAll();">
+        <input type="button" value="Agregar botón" onclick="agregarBoton();">
+        <input type="button" value="Agregar Texto" onclick="agregarTexto();">
+
+
+
+    </form>
+    <script>
+        //creacion de objeto con un método...
+        var persona = {
+            nombre: "Esperanza",
+            apellido: "Gomez",
+            edad: 48,
+            datos: function () {
+                return this.nombre + " " + this.apellido + " - " + this.edad;
+            }
+        }
+
+
+        function sumar(a, b) {
+            return a + b;
+
+        }
+        alert("Nombre de la persona:" + persona.apellido);
+        console.log("Edad de la persona" + persona.edad);
+        document.write(persona.datos());
+
+        var x = 5;
+        var dias = ["lunes", "martes", "miercoles"];
+        for (var i in dias) {
+            alert(dias[i]);
+        }
+        alert(sumar(3, 9));
+        alert(x++);
+    </script>
+    <script src="js/prueba.js"></script>
+</body>
+
+</html>
