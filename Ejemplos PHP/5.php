@@ -4,20 +4,21 @@
 <?php
 
 $semana=array("lunes","martes","miércoles","jueves","viernes","sábado","domingo");
-foreach ($semana as $dia) 
+foreach ($semana as $X) 
 {
-echo "$dia ,";
+echo "Dato: $X ,";
 
 }
+echo "<br>";
 
 $capAuton=array(
 "Bogota"=>"Cundinamarca",
 "Medellin"=>"Antioquia",
-            "Cali"=>"Valle del Cauca ",
+"Cali"=>"Valle del Cauca ",
 "Pereira "=>"Risaralda");
-foreach ($capAuton as $clave=>$valor) 
+foreach ($capAuton as $k=>$v) 
 {
-echo "$valor es la capital de $clave. <br/>";
+echo "$k es la capital de $. <br/>";
 }		
 
 

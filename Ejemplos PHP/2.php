@@ -10,6 +10,13 @@
 	$name_user = "pepe"; // variable de tipo carácter/string. 
 	$bandera = true; //Se declara una variable lógico/boolean.
 	//Array 
+	$array0 = array(1,2,3,4,9,12,6,8,11);
+	echo $array0[5];
+	$array = array(
+		"foo" => "bar",
+		"bar" => "foo",
+	);//arreglo asociativo
+	echo $array["foo"];
 	$dias[0]=11;
 	$dias[1]=22;
 	//se puede llegar a obviar el indice
@@ -63,6 +70,7 @@
 	echo "<br><br>";
 	echo "Contenido de todo el arreglo 'baz': ";
 //no es posible mostrar todo un arreglo con echo, en su lugar se usa var_dump
+	echo $baz;
 	var_dump($baz);
 	echo "<br><br>";
 	echo "Contenido del arreglo en la posicion 2: ";
